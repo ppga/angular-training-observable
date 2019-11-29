@@ -1,4 +1,4 @@
-# angular-pc6eh2
+# angular-training-observable
 Simple excersises on angular observables
 Based on [Djamware programming blog](https://www.djamware.com/post/5da31946ae418d042e1aef1d/angular-8-tutorial-observable-and-rxjs-examples)
 
