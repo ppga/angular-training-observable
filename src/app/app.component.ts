@@ -2,6 +2,13 @@ import { Component } from '@angular/core';
 // import { timer } from 'rxjs';
 // import { of } from  'rxjs'
 import { Observable } from 'rxjs';
+'./esc-input/esc-input.component';
+import { SeqObserverComponent } from './seq-observer/seq-observer.component';
+import { BasicObservableComponent } from './basic-observable/basic-observable.component';
+import { HttpObservableComponent } from './http-observable/http-observable.component';
+import { DataExchangeComponent } from './data-exchange/data-exchange.component';
+
+
 
 
 @Component({
