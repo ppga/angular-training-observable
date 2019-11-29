@@ -2,9 +2,13 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 
 const routes: Routes = [
+  // {
+  //   path: '',
+  //   loadChildren: './data-exchange/data-exchange.module#DataExchangeModule'
+  // }
   {
     path: '',
-    loadChildren: './data-exchange/data-exchange.module#DataExchangeModule'
+    loadChildren: './react-form/react-form.module#ReactFormModule'
   }
 ];
 
