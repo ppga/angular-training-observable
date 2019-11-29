@@ -11,6 +11,11 @@ const routes: Routes = [
   {
     path: 'bcomp',
     component: BcompComponent
+  },
+  {
+    path: '',
+    redirectTo: 'acomp',
+    pathMatch: 'full'
   }
 ];
 

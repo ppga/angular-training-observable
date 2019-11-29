@@ -7,18 +7,17 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import {RouterModule, Routes} from '@angular/router';
 import {AppRoutingModule} from './app-routing.module'
-import { EscInputComponent } from import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
+import {DataExchangeModule} from './data-exchange/data-exchange.module';
 
-// const appRoutes: Routes = [
-//   {path: '', component: DetailsComponent}
-// ];
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, 
   HttpClientModule,
-  AppRoutingModule],
-  declarations: [ AppComponent, HelloComponent, EscInputComponent],
+  AppRoutingModule,
+  DataExchangeModule],
+  declarations: [ AppComponent, HelloComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

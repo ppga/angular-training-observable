@@ -19,7 +19,7 @@ export class BcompComponent implements OnInit {
 
   changeData() {
     this.sharedData.changeData({name: 'Romario Varia'});
-    this.router.navigate(['/acomp']);
+    this.router.navigate(['acomp']);
   }
 
 

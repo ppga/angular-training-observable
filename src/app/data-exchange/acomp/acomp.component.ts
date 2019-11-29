@@ -17,6 +17,6 @@ export class AcompComponent implements OnInit {
 
   changeData() {
     this.sharedData.changeData({name: 'Eric Cantona'});
-    this.router.navigate(['/bcomp']);
+    this.router.navigate(['bcomp']);
   }
 }
