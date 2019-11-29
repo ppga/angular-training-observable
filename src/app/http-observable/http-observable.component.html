@@ -1,0 +1,9 @@
+Tags fetched:
+<div *ngIf='tagsListError'> Error fetching tags list: {{tagsListErrorMsg}} </div>
+<ul>
+    <li *ngFor="let d of data | async">
+      {{ d.tags }}
+    </li>
+</ul>
+<!--<div *ngIf='articleError'}> Error fetching article: {{articleErrorMsg}} </div> -->
+
